@@ -603,26 +603,26 @@ if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
 kice = m.sender
 await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Ha sido expulsado por enviar un enlace de video de YouTube en este grupo`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
   if (antiWame)
   if (budy.includes(`http://wa.me`)) {
 if (!isBotAdmins) return
-bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nAdmin has sent a wa.me link, admin is free to send any link😇`
+bvl = `\`\`\`「 Wa.me Link Detected 」\`\`\`\n\nEl administrador ha enviado un enlace wa.me, el administrador puede enviar cualquier enlace 😇`
 if (isAdmins) return reply(bvl)
 if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
 kice = m.sender
 await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending youtube video link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Ha sido expulsado por enviar un enlace de video de YouTube en este grupo`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
 //antivirtex by xeon
   if (antiVirtex) {
   if (budy.length > 3500) {
-  reply(`Somebody spammed virus!! Mark as read⚠️\n`.repeat(300))
-  reply(`\`\`\`「 Virus Detected 」\`\`\`\n\nSorry You Will Be Kicked !`)
+  reply(`Alguien envió spam virus!! Marcar como leído⚠️\n`.repeat(300))
+  reply(`\`\`\`「 Virus Detected 」\`\`\`\n\nLo siento, serás eliminado !`)
   if (!isBotAdmins) return reply(mess.botAdmin)
   XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
   }
@@ -630,7 +630,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
 //anti bad words by xeon
 if (antiToxic)
 if (bad.includes(messagesD)) {
-tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🤢','Dont be toxic🦄']
+tos = ['Oye, cuida tu boca','¿Nunca te han enseñado a hablar?','Deja de ser tóxico mi amigo 🤢','No seas tóxico 🦄']
 sin =  tos[Math.floor(Math.random() * (tos.length))]
 reply(sin)
 if (m.text) {
