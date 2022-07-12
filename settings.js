@@ -35,12 +35,12 @@ global.APIKeys = {
 }
 
 
-//aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.available = true //auto available (true to on, false to off)
+//función automática
+global.autoTyping = false //escritura automática en gc (true to on, false to off)
+global.autoreadpmngc = false //lectura automática en gc y pm (true to on, false to off)
+global.autoReadGc = false //lectura automática en gc (true to on, false to off)
+global.autoRecord = false //grabación automática (true to on, false to off)
+global.available = true //automático disponible (true to on, false to off)
 
 //semt menu variants
 global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
@@ -54,15 +54,15 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['916909137213'] //ur owner number
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
+global.vcardowner = ['51977783315'] //ur owner number
+global.ownername = "𝕄𝕀𝕊𝔸𝔼𝕃" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.location = "America, Peru" //ur location
 
 //bot bomdy 
-global.owner = ['916909137213']
-global.ownertag = '916909137213' //ur tag number
+global.owner = ['51977783315']
+global.ownertag = '51977783315' //ur tag number
 global.botname = 'Cheems Bot MD V4' //ur bot name
 global.linkz = "https://youtu.be/WiIqCdiDjFo" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
@@ -105,14 +105,14 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
+    success: '𝙻𝚒𝚜𝚝𝚘 ✓',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner!',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
+    wait: '𝙴𝚗 𝚙𝚛𝚘𝚌𝚎𝚜𝚘...',
     linkm: 'Where is the link?',
     error: 'Error!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
